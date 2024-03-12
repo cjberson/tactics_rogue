@@ -1,0 +1,46 @@
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://bl6rmv5wdbray"]
+
+[ext_resource type="Texture2D" uid="uid://bavjy1odiaew5" path="res://UnitOverlay/tileset_unit_overlay.svg" id="1"]
+[ext_resource type="Texture2D" uid="uid://ch6xb473aynnn" path="res://UnitOverlay/tileset_unit_attack_overlay.svg" id="2_s52ap"]
+[ext_resource type="Texture2D" uid="uid://bw2hsgvytgi3h" path="res://UnitOverlay/tileset_unit_friendly_overlay.svg" id="3_4uuft"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_13t87"]
+texture = ExtResource("1")
+texture_region_size = Vector2i(80, 80)
+0:0/next_alternative_id = 8
+0:0/0 = 0
+0:0/1 = 1
+0:0/1/flip_h = true
+0:0/2 = 2
+0:0/2/flip_v = true
+0:0/3 = 3
+0:0/3/flip_h = true
+0:0/3/flip_v = true
+0:0/4 = 4
+0:0/4/transpose = true
+0:0/5 = 5
+0:0/5/flip_h = true
+0:0/5/transpose = true
+0:0/6 = 6
+0:0/6/flip_v = true
+0:0/6/transpose = true
+0:0/7 = 7
+0:0/7/flip_h = true
+0:0/7/flip_v = true
+0:0/7/transpose = true
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q8vkk"]
+texture = ExtResource("2_s52ap")
+texture_region_size = Vector2i(80, 80)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yvp1c"]
+texture = ExtResource("3_4uuft")
+texture_region_size = Vector2i(80, 80)
+0:0/0 = 0
+
+[resource]
+tile_size = Vector2i(80, 80)
+sources/0 = SubResource("TileSetAtlasSource_13t87")
+sources/1 = SubResource("TileSetAtlasSource_q8vkk")
+sources/2 = SubResource("TileSetAtlasSource_yvp1c")

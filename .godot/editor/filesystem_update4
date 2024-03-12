@@ -1,0 +1,9 @@
+res://Main.tscn
+res://UnitOverlay/unit_overlay_tileset.tres
+res://GameBoard/unit_path_tileset.tres
+res://Main.gdshader
+res://GameBoard/GameBoard.gd
+res://Units/Unit.gd
+res://Inventory.gd
+res://UnitOverlay/UnitOverlay.gd
+res://GameBoard/Cursor/Cursor.gd
